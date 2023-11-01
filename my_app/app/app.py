@@ -3,7 +3,6 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 
-# Подключение к NoSQL DB (в примере используется MongoDB)
 client = MongoClient('mongodb://mongo:27017/')
 db = client.mydatabase
 
